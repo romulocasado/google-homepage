@@ -1,11 +1,21 @@
+/* body style */
+
 body {
    background-color: white;
 }
+
+/* nav-bar Style */
+
 .nav-bar {
    display: flex;
    justify-content: flex-end;
 }
+
+/* img style */
+
 .google-img {
    text-align: center;
    margin-top: 15em;
 }
+
+/* container style */
