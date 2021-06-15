@@ -65,21 +65,37 @@ a{
 
 .container .container-form form label.search {
    position: absolute;
-   left: 10px;
+   left: 20px;
    top: 14px;
 } 
+.container .container-form form label.search i {
+   color: #c8c8c8;
+}
 .container .container-form form label.microphone {
    position: absolute;
-   right: 10px;
+   right: 20px;
    top: 14px;
+}
+.container .container-form form label.microphone i {
+   
 }
 
 .container .container-form form input {
-   padding: 10px;
    width: 300px;
    border:  1px solid #c8c8c8;
    border-radius: 30px;
    padding: 16px;
+}
+
+.container .buttons {
+   margin-top: 30px;
+}
+
+.container .buttons button {
+   background-color: #eee;
+   padding: 10px 20px;
+   border-radius: 5px;
+   border: 1px solid #eee;
 }
 
 /* footer style */
