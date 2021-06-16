@@ -76,9 +76,6 @@ a{
    right: 20px;
    top: 14px;
 }
-.container .container-form form label.microphone i {
-   
-}
 
 .container .container-form form input {
    width: 300px;
@@ -96,7 +93,16 @@ a{
    padding: 10px 20px;
    border-radius: 5px;
    border: 1px solid #eee;
+   cursor: pointer;
+   margin: 0 5px;
+   font-size: 15px;
 }
+.container .buttons button:hover {
+   cursor: pointer;
+   border: 1px solid #c8c8c8;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
 
 /* footer style */
 
@@ -129,4 +135,32 @@ footer h3 {
    font-size: 18px;
    margin: 0 10px;
    color: #555555;
+}
+
+/*media query */
+
+@media (min-width: 500px) {
+   .container .container-form form input {
+      width: 400px;
+   }
+}
+@media (min-width: 640px) {
+   .container .container-form form input {
+      width: 500px;
+   }
+}
+@media (min-width: 780px) {
+   .container .container-form form input {
+      width: 600px;
+   }
+   .footer .footer-a {
+      flex-direction: row;
+      justify-content: space-around;
+   }
+}
+@media (min-width: 1280px) {
+   .footer .footer-a {
+      justify-content: space-between;
+      padding: 0 30px;
+   }
 }
